@@ -10,3 +10,6 @@ umount /dev/mmcblk0p1
 sudo dd bs=4M if=raspbian-jessie.img of=/dev/mmcblk0
 sync
 ```
+
+#network
+remove eth0 from /etc/network/interfaces to enable dhcp
